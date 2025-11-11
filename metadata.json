@@ -1,0 +1,5 @@
+{
+  "name": "GM/GN Analytics",
+  "description": "A mini-app for Farcaster that analyzes your 'gm' and 'gn' posts to see how many were replied to by humans, bots, or ignored entirely. Features fun, Warplet-inspired visuals and AI-powered insights.",
+  "requestFramePermissions": []
+}
