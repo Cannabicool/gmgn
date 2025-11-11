@@ -4,55 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GM/GN Analytics</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'brand-bg': '#131417',
-              'brand-surface': '#1A1B1F',
-              'brand-primary': '#8A63D2',
-              'brand-secondary': '#4A9DFF',
-              'brand-accent': '#33D17E',
-              'brand-text-primary': '#E4E4E7',
-              'brand-text-secondary': '#A0A0A5',
-            },
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-            animation: {
-              'fade-in': 'fadeIn 0.5s ease-in-out',
-            },
-            keyframes: {
-              fadeIn: {
-                '0%': { opacity: '0', transform: 'translateY(10px)' },
-                '100%': { opacity: '1', transform: 'translateY(0)' },
-              },
-            }
-          },
-        }
-      }
-    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script type="importmap">
+    <link rel="stylesheet" href="/index.css">
+  <script type="importmap">
 {
   "imports": {
     "react": "https://aistudiocdn.com/react@^19.2.0",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "html-to-image": "https://aistudiocdn.com/html-to-image@^1.11.13",
     "recharts": "https://aistudiocdn.com/recharts@^3.4.1",
     "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
-    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.0",
     "vite": "https://aistudiocdn.com/vite@^7.2.2",
-    "html-to-image": "https://aistudiocdn.com/html-to-image@^1.11.13",
-    "process": "https://aistudiocdn.com/process@^0.11.10"
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.0"
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-brand-bg text-brand-text-primary">
     <div id="root"></div>
